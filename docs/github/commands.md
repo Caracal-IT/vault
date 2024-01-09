@@ -87,3 +87,18 @@ The changes after this commit will be **removed**.
 ```bash
 git revert --hard 5092231180ed860ef800ace313ff80de39310c53
 ```
+
+## Ignoring Files
+
+Add the following file to alway ignore files to track.  
+
+.gitignore
+```gitignore
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+/dist
+```
+
