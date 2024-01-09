@@ -28,6 +28,33 @@ A git repository must be initialized before you can use it.
 git init
 ```
 
+## Commit Changes
+
+This is a two step process.  
+1. Add the files.  
+2. Commit the changes.
+
+```bash
+git add myfile.txt myfile2.txt
+git add . 
+git commit
+```
+
+## Status of repository
+
+The following command gill get the status of the repository.
+
+```bash
+git status
+```
+
+## History of commits
+
+Run the following command to get the history of all the commits.  
+
+```bash
+git log
+```
 
 
 
