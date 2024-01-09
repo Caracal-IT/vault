@@ -2,6 +2,7 @@
 # Commands
 
 This section describes a list of usefull commands.  
+You can get more information at [Book](https://git-scm.com/book/en/v2)
 
 ## Configure git
 
@@ -56,5 +57,17 @@ Run the following command to get the history of all the commits.
 git log
 ```
 
+## Move to a previous commit
 
+Use the following command to move to a previous commit. 
+The code will be disconnected from a branch. 
 
+```bash
+git checkout 5092231180ed860ef800ace313ff80de39310c53
+```
+
+Type the following command to return to the branch.  
+
+```bash
+git checkout main
+```
