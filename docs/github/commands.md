@@ -71,3 +71,13 @@ Type the following command to return to the branch.
 ```bash
 git checkout main
 ```
+
+## Revert changes
+
+Use the following command to revert changes.  
+Will not remove the changes but create changes that will revert the changes in the commit.
+
+```bash
+git revert 5092231180ed860ef800ace313ff80de39310c53
+```
+
