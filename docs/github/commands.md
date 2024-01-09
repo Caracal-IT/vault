@@ -81,3 +81,9 @@ Will not remove the changes but create changes that will revert the changes in t
 git revert 5092231180ed860ef800ace313ff80de39310c53
 ```
 
+Use the following command to go back to a commit.  
+The changes after this commit will be **removed**.  
+
+```bash
+git revert --hard 5092231180ed860ef800ace313ff80de39310c53
+```
