@@ -102,3 +102,53 @@ Add the following file to alway ignore files to track.
 /dist
 ```
 
+## Branch
+
+Git branches are effectively a pointer to a snapshot of your changes.  
+
+Use the following command to create a new branch.  
+
+```bash
+git branch second-branch
+git checkout second-branch
+```
+
+Use the following command to branch and checkout in one step.  
+
+```bash
+git checkout -b second-branch
+```
+
+Use the following command to merge a brange.  
+
+```bash
+git merge second-branch
+```
+
+Use the following command to delete a branch.  
+
+```bash
+git branch -D second-branch
+```
+
+## Map remote repository
+
+Use the following command to link a remote repository.  
+
+```bash
+git remote add origin https://myuser@github.com/Caracal-IT/vault.git
+
+git push --set-upstream origin main
+```
+
+Use the following command to push changes.  
+
+```bash
+git push
+```
+
+Use the following command to get changes
+
+```bash
+git pull
+```
